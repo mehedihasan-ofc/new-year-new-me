@@ -1,0 +1,195 @@
+/*==========================================================
+    Common CSS
+==========================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.description {
+    color: #fff;
+    line-height: 26px;
+}
+
+.btn {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.section-title {
+    width: 288px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/*==========================================================
+    Hero Section
+==========================================================*/
+
+#hero {
+    height: 100vh;
+    background: url("img/banner.png") no-repeat center / cover;
+}
+
+.hero-text-box {}
+
+.hero-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.btn-contact {
+    margin-top: 30px;
+}
+
+/*==========================================================
+    My Failure Section
+==========================================================*/
+#my-failure {
+    margin: 100px;
+}
+
+.my-failure-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.my-failure-item .description {
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-list {
+    list-style: none;
+    padding: 22px;
+    color: #444343;
+}
+
+.failure-list li {
+    padding: 10px 0;
+}
+
+.failure-list li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/*==========================================================
+    My Plan Section
+==========================================================*/
+#my-plan {
+    margin: 100px;
+}
+
+#my-plan .section-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-plan-items h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-plan-items p {
+    color: #737272;
+    font-weight: 500;
+}
+
+/*==========================================================
+    Call Now Section
+==========================================================*/
+#call-now {
+    height: 300px;
+    margin: 100px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("img/watch.png") no-repeat center / cover;
+    border-radius: 8px;
+}
+
+.call-text-box {}
+
+/*==========================================================
+    Footer Section
+==========================================================*/
+
+#footer {
+    color: #fff;
+    background: #151414;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+
+.footer-left-items {
+    width: 50%;
+    align-items: center;
+}
+
+.footer-left-items h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-left-items p {
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-right-items {
+    width: 30%;
+}
+
+.footer-right-items h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-right-items input[type=email] {
+    width: 100%;
+    padding: 15px 10px;
+    background: #151414;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-right-items .btn-subs {
+    background: #005FAC;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}

@@ -39,9 +39,14 @@
     width: 100%;
     height: 100vh;
     background: url("img/banner.png") no-repeat center / cover;
+    position: relative;
 }
 
 .hero-text-box {
+    position: absolute;
+    width: 50%;
+    left: 600px;
+    top: 120px;
 }
 
 .hero-title {
@@ -49,10 +54,16 @@
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
+    text-align: right;
+}
+
+.hero-text-box .description {
+    text-align: right;
 }
 
 .btn-contact {
     margin-top: 30px;
+    text-align: right;
 }
 
 /*==========================================================

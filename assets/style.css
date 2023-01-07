@@ -181,6 +181,28 @@
     padding: 10px 40px;
 }
 
+.member-social-link {
+    margin-top: 5px;
+}
+
+.member-social-link ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.member-social-link ul li a {
+    color: #fff;
+}
+
+.member-social-link ul li a i {
+    background: #bdd1df;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
 
 
 /*==========================================================

@@ -101,7 +101,7 @@
 
 .my-plan-container {
     display: flex;
-    gap: 60px;
+    gap: 120px;
     justify-content: center;
     text-align: center;
 }
@@ -118,6 +118,57 @@
     color: #737272;
     font-weight: 500;
 }
+
+/*==========================================================
+    Our Team Section
+==========================================================*/
+#our-team {
+    margin: 100px;
+}
+
+#our-team .section-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#our-team .description {
+    color: #444343;
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.member-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.member-name {
+    color: #27283d;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.position {
+    color: #005FAC;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.member-des {
+    color: #5d677b;
+    padding: 10px 40px;
+}
+
+
 
 /*==========================================================
     Call Now Section
